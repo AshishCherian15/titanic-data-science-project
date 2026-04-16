@@ -1,101 +1,132 @@
-# Titanic Survival Prediction
+# Titanic Survival Prediction Dashboard
 
-This project analyzes the Titanic dataset and builds a machine learning model to predict whether a passenger survived.
+An end-to-end Data Science project built on the Titanic dataset, covering data cleaning, visualization, feature engineering, machine learning, and interactive prediction.
 
-It includes:
-- A complete Python data science pipeline (cleaning, EDA, feature engineering, model training, evaluation)
-- A modern web dashboard built with Next.js for interactive prediction and visualization
+This repository contains two deliverables:
+- Python ML pipeline for training and evaluation
+- Next.js dashboard for interactive prediction and analytics-style visualization
 
-## Project Objective
+## Overview
 
-Understand and apply an end-to-end data science workflow on a real dataset:
-- Data cleaning and preprocessing
-- Data visualization
-- Feature engineering
-- Model building
-- Evaluation using accuracy and confusion matrix
+The goal of this project is to understand the full data science workflow using a real-world dataset and to present the results through both analysis code and a web interface.
 
-## Learning Outcomes and Skills
+## Key Features
 
-- Data cleaning and preprocessing with NumPy and Pandas
-- Data visualization with Matplotlib and Seaborn
-- Feature engineering
-- Classification model building with Logistic Regression
-- Model evaluation using Accuracy and Confusion Matrix
+- End-to-end Titanic preprocessing pipeline in Python
+- Data visualization with bar charts, histograms, and correlation heatmaps
+- Feature engineering with `familysize`
+- Logistic Regression model for survival classification
+- Evaluation using accuracy, classification report, and confusion matrix
+- Web dashboard with interactive passenger input and survival prediction
+- Vercel-ready project setup
 
-## Workflow Followed
+## Tech Stack
 
-1. Data collection: loaded Titanic dataset.
-2. Data cleaning: handled missing values and removed unnecessary columns.
-3. Data visualization: generated bar plots, histograms, and heatmaps.
-4. Feature engineering: created familysize feature.
-5. Model building: trained Logistic Regression.
-6. Evaluation: measured accuracy and visualized confusion matrix.
+### Data Science
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- scikit-learn
 
-## Features Used in Model
+### Web Dashboard
+- Next.js 15
+- React 19
+- TypeScript
+- CSS
 
-- pclass
-- sex
-- age
-- fare
-- familysize
-- embarked
-
-## Model and Result
-
-- Model: Logistic Regression
-- Typical accuracy: around 75% to 85% depending on split and preprocessing
-- Evaluation: confusion matrix and classification report
-
-## Repository Structure
+## Project Structure
 
 ```text
-app/
-  globals.css
-  layout.tsx
-  page.tsx
-lib/
-  titanic-model.ts
-app.py
-titanic_project.py
-titani.csv
-Titanic_Data_Science_Project_Report.docx
-README.md
+Titanic Project/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── lib/
+│   └── titanic-model.ts
+├── app.py
+├── titanic_project.py
+├── titani.csv
+├── Titanic_Data_Science_Project_Report.docx
+├── package.json
+├── requirements.txt
+├── vercel.json
+└── README.md
 ```
 
-## How to Run (Python Pipeline)
+## Data Science Workflow
 
-1. Create and activate virtual environment.
-2. Install dependencies from requirements.txt.
-3. Run:
+1. Data Collection
+2. Data Cleaning and Missing Value Handling
+3. Exploratory Data Analysis and Visualization
+4. Feature Engineering (`familysize`)
+5. Model Training (Logistic Regression)
+6. Model Evaluation (Accuracy + Confusion Matrix)
+
+## Features Used for Prediction
+
+- `pclass`
+- `sex`
+- `age`
+- `fare`
+- `familysize`
+- `embarked`
+
+## Model Performance
+
+- Model: Logistic Regression
+- Typical Accuracy: ~75% to ~85%
+- Evaluation Metrics:
+  - Accuracy Score
+  - Confusion Matrix
+  - Classification Report
+
+## Local Setup
+
+### 1) Python Pipeline
 
 ```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
 python titanic_project.py
 ```
 
-This runs cleaning, feature engineering, visualizations, training, and evaluation.
-
-## How to Run (Web App)
+### 2) Next.js Dashboard
 
 ```bash
 npm install
 npm run dev
 ```
 
-Then open:
+Open:
 - http://localhost:3000
 
-## Submission Checklist
+## Submission Readiness
 
-- Dataset used: present (titani.csv)
-- Python code for preprocessing, visualization, and model building: present (titanic_project.py)
-- Final report in Word format: present (Titanic_Data_Science_Project_Report.docx)
-- Screenshots of graphs and confusion matrix: generate and include before final submission
+Required items and status:
+- Dataset used: available ([titani.csv](titani.csv))
+- Python preprocessing/model code: available ([titanic_project.py](titanic_project.py))
+- Final report (Word): available ([Titanic_Data_Science_Project_Report.docx](Titanic_Data_Science_Project_Report.docx))
+- Screenshots of graphs and confusion matrix: to be added before final submission
 
-## Notes
+## Deployment
 
-- The web dashboard is deployment-ready for Vercel.
-- A repository-level vercel.json is included so Vercel uses Next.js build settings.
+This project is configured for Vercel deployment.
+
+```bash
+npm run build
+```
+
+The repository includes [vercel.json](vercel.json) for framework build configuration.
+
+## Author
+
+Ashish Cherian
+
+GitHub: https://github.com/AshishCherian15
 
 ## License
 
