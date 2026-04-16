@@ -85,6 +85,12 @@ Titanic Project/
 └── README.md
 ```
 
+## 🖼️ Project Showcase
+
+### 🚢 Titanic Dashboard Preview
+
+![Titanic Dashboard Screenshot](chrome-capture-2026-04-16.png)
+
 ## 🔬 Data Science Workflow
 
 1. Data Collection
