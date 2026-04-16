@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+*.pnp
+.pnp.js
+package-lock.json
+yarn.lock
+
+# Next.js
+.next/
+out/
+dist/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Python
+venv/
+env/
+*.pyc
+__pycache__/
+.Python
+*.egg-info/
+*.egg
+
+# Build outputs
+build/
+*.whl

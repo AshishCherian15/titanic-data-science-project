@@ -1,0 +1,20 @@
+# Vercel deployment ignore patterns
+# Python files and venv
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Old app files (using legacy Streamlit)
+titanic_project.py
+app.py
+requirements.txt
+
+# Development docs
+.vscode/
+.idea/
+*.md
+
+# OS files
+.DS_Store
+Thumbs.db
