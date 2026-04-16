@@ -1,24 +1,48 @@
-# Titanic Survival Prediction Dashboard
+<div align="center">
 
-An end-to-end Data Science project built on the Titanic dataset, covering data cleaning, visualization, feature engineering, machine learning, and interactive prediction.
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:06b6d4&height=230&section=header&text=Titanic%20Survival%20Prediction&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Science%20Project%20%7C%20ML%20%2B%20Visualization%20%2B%20Web%20Dashboard&descAlignY=58)
 
-This repository contains two deliverables:
-- Python ML pipeline for training and evaluation
-- Next.js dashboard for interactive prediction and analytics-style visualization
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=22D3EE&center=true&vCenter=true&width=900&lines=Machine+Learning+on+Titanic+Dataset;Data+Cleaning+%2B+Visualization+%2B+Prediction;Logistic+Regression+%7C+Confusion+Matrix+%7C+Dashboard)](https://git.io/typing-svg)
+
+![Status](https://img.shields.io/badge/Project-Submission%20Ready-16a34a?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=111827)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployment-Vercel-black?style=for-the-badge&logo=vercel)
+
+</div>
+
+---
 
 ## Overview
 
-The goal of this project is to understand the full data science workflow using a real-world dataset and to present the results through both analysis code and a web interface.
+Welcome aboard the Titanic data journey. This project demonstrates an end-to-end data science workflow and a modern interactive web dashboard.
 
-## Key Features
+- Python pipeline for preprocessing, feature engineering, model training, and evaluation
+- Next.js dashboard for interactive passenger-level survival prediction
+- Visual analysis with multiple charts and confusion matrix interpretation
 
-- End-to-end Titanic preprocessing pipeline in Python
-- Data visualization with bar charts, histograms, and correlation heatmaps
-- Feature engineering with `familysize`
-- Logistic Regression model for survival classification
-- Evaluation using accuracy, classification report, and confusion matrix
-- Web dashboard with interactive passenger input and survival prediction
-- Vercel-ready project setup
+## Project Objective
+
+Apply core data science concepts to a real-world dataset and produce meaningful predictive insights.
+
+## What This Project Covers
+
+- Data cleaning and preprocessing using NumPy and Pandas
+- Data visualization using Matplotlib and Seaborn
+- Feature engineering (`familysize`)
+- Logistic Regression model development
+- Model evaluation with accuracy, confusion matrix, and classification report
+- Interactive web-based predictor UI
+
+## Feature Highlights
+
+- End-to-end Titanic ML workflow in Python
+- Survival analysis charts (count, class, gender, age, fare)
+- Correlation heatmap and confusion matrix
+- Modern dashboard UI with rich styling and charts
+- Vercel-ready deployment setup
 
 ## Tech Stack
 
@@ -30,7 +54,7 @@ The goal of this project is to understand the full data science workflow using a
 - Seaborn
 - scikit-learn
 
-### Web Dashboard
+### Frontend Dashboard
 - Next.js 15
 - React 19
 - TypeScript
@@ -65,7 +89,7 @@ Titanic Project/
 5. Model Training (Logistic Regression)
 6. Model Evaluation (Accuracy + Confusion Matrix)
 
-## Features Used for Prediction
+## Model Inputs
 
 - `pclass`
 - `sex`
@@ -77,15 +101,15 @@ Titanic Project/
 ## Model Performance
 
 - Model: Logistic Regression
-- Typical Accuracy: ~75% to ~85%
-- Evaluation Metrics:
+- Typical accuracy range: `~75% to ~85%`
+- Evaluation metrics:
   - Accuracy Score
   - Confusion Matrix
   - Classification Report
 
 ## Local Setup
 
-### 1) Python Pipeline
+### 1) Run Python Pipeline
 
 ```bash
 python -m venv venv
@@ -94,40 +118,48 @@ pip install -r requirements.txt
 python titanic_project.py
 ```
 
-### 2) Next.js Dashboard
+### 2) Run Next.js Dashboard
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open:
+Open in browser:
 - http://localhost:3000
 
-## Submission Readiness
+## Submission Checklist
 
-Required items and status:
-- Dataset used: available ([titani.csv](titani.csv))
-- Python preprocessing/model code: available ([titanic_project.py](titanic_project.py))
+- Dataset: available ([titani.csv](titani.csv))
+- Python preprocessing + modeling code: available ([titanic_project.py](titanic_project.py))
 - Final report (Word): available ([Titanic_Data_Science_Project_Report.docx](Titanic_Data_Science_Project_Report.docx))
-- Screenshots of graphs and confusion matrix: to be added before final submission
+- Graph/confusion-matrix screenshots: add before final submission
 
 ## Deployment
 
-This project is configured for Vercel deployment.
+Build command:
 
 ```bash
 npm run build
 ```
 
-The repository includes [vercel.json](vercel.json) for framework build configuration.
+This repository includes [vercel.json](vercel.json) for Vercel framework configuration.
 
 ## Author
 
-Ashish Cherian
-
+Ashish Cherian  
 GitHub: https://github.com/AshishCherian15
 
 ## License
 
 MIT License
+
+---
+
+<div align="center">
+
+### Thanks for visiting this project 🚢
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:1d4ed8,100:0f172a&height=130&section=footer)
+
+</div>
