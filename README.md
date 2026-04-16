@@ -15,7 +15,12 @@
 
 ---
 
-## Overview
+## 🚢 Project Name
+
+- Main: **Titanic Survival Prediction Dashboard**
+- Extra Name: **🚢 Titanic Insight Voyager**
+
+## 🧭 Overview
 
 Welcome aboard the Titanic data journey. This project demonstrates an end-to-end data science workflow and a modern interactive web dashboard.
 
@@ -23,11 +28,11 @@ Welcome aboard the Titanic data journey. This project demonstrates an end-to-end
 - Next.js dashboard for interactive passenger-level survival prediction
 - Visual analysis with multiple charts and confusion matrix interpretation
 
-## Project Objective
+## 🎯 Project Objective
 
 Apply core data science concepts to a real-world dataset and produce meaningful predictive insights.
 
-## What This Project Covers
+## 📚 What This Project Covers
 
 - Data cleaning and preprocessing using NumPy and Pandas
 - Data visualization using Matplotlib and Seaborn
@@ -36,7 +41,7 @@ Apply core data science concepts to a real-world dataset and produce meaningful 
 - Model evaluation with accuracy, confusion matrix, and classification report
 - Interactive web-based predictor UI
 
-## Feature Highlights
+## ✨ Feature Highlights
 
 - End-to-end Titanic ML workflow in Python
 - Survival analysis charts (count, class, gender, age, fare)
@@ -44,9 +49,9 @@ Apply core data science concepts to a real-world dataset and produce meaningful 
 - Modern dashboard UI with rich styling and charts
 - Vercel-ready deployment setup
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-### Data Science
+### 📊 Data Science
 - Python
 - NumPy
 - Pandas
@@ -54,13 +59,13 @@ Apply core data science concepts to a real-world dataset and produce meaningful 
 - Seaborn
 - scikit-learn
 
-### Frontend Dashboard
+### 🌐 Frontend Dashboard
 - Next.js 15
 - React 19
 - TypeScript
 - CSS
 
-## Project Structure
+## 🗂️ Project Structure
 
 ```text
 Titanic Project/
@@ -80,7 +85,7 @@ Titanic Project/
 └── README.md
 ```
 
-## Data Science Workflow
+## 🔬 Data Science Workflow
 
 1. Data Collection
 2. Data Cleaning and Missing Value Handling
@@ -89,7 +94,7 @@ Titanic Project/
 5. Model Training (Logistic Regression)
 6. Model Evaluation (Accuracy + Confusion Matrix)
 
-## Model Inputs
+## 🧠 Model Inputs
 
 - `pclass`
 - `sex`
@@ -98,7 +103,7 @@ Titanic Project/
 - `familysize`
 - `embarked`
 
-## Model Performance
+## 📈 Model Performance
 
 - Model: Logistic Regression
 - Typical accuracy range: `~75% to ~85%`
@@ -107,9 +112,9 @@ Titanic Project/
   - Confusion Matrix
   - Classification Report
 
-## Local Setup
+## ⚙️ Local Setup
 
-### 1) Run Python Pipeline
+### 1️⃣ Run Python Pipeline
 
 ```bash
 python -m venv venv
@@ -118,7 +123,7 @@ pip install -r requirements.txt
 python titanic_project.py
 ```
 
-### 2) Run Next.js Dashboard
+### 2️⃣ Run Next.js Dashboard
 
 ```bash
 npm install
@@ -128,14 +133,14 @@ npm run dev
 Open in browser:
 - http://localhost:3000
 
-## Submission Checklist
+## ✅ Submission Checklist
 
-- Dataset: available ([titani.csv](titani.csv))
-- Python preprocessing + modeling code: available ([titanic_project.py](titanic_project.py))
-- Final report (Word): available ([Titanic_Data_Science_Project_Report.docx](Titanic_Data_Science_Project_Report.docx))
-- Graph/confusion-matrix screenshots: add before final submission
+- ✅ Dataset: available ([titani.csv](titani.csv))
+- ✅ Python preprocessing + modeling code: available ([titanic_project.py](titanic_project.py))
+- ✅ Final report (Word): available ([Titanic_Data_Science_Project_Report.docx](Titanic_Data_Science_Project_Report.docx))
+- 📸 Graph/confusion-matrix screenshots: add before final submission
 
-## Deployment
+## 🚀 Deployment
 
 Build command:
 
@@ -145,12 +150,12 @@ npm run build
 
 This repository includes [vercel.json](vercel.json) for Vercel framework configuration.
 
-## Author
+## 👨‍💻 Author
 
 Ashish Cherian  
 GitHub: https://github.com/AshishCherian15
 
-## License
+## 📜 License
 
 MIT License
 
